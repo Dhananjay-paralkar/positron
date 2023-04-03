@@ -32,7 +32,6 @@ require ('top.php');
                         <li><a class="text-decoration-none" href="#">50 LTR</a></li>
                     </ul>
                 </li>
-<!--                Hello world  -->
                 <li class="pb-3">
                     <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
                         Price Range
