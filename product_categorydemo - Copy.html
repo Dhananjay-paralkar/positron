@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category demo</title>
+</head>
+<body>
+
+    <div class="container mt-3"> 
+        <h2>Category Details</h2>
+        <form action="product_categorydemo.php" method="post" enctype="multipart/form-data">
+          <label for="fruits">Select category:</label>
+              <select id="category" name="CategoryName">
+                <option value="Furniture">Furniture</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Gym Equipment">Gym Equipment</option>
+          </select>
+          <br><br>
+      
+          <label for="fruits">Select SubCategory:</label>
+              <select id="Subcategory" name="txtSubcategoryName">
+                <option value="Bed">Bed</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Dumbbelles">Dumbbelles</option>
+          </select>
+          <br><br>
+
+          <label for="Namr" class="form-label"></label>Brand Name</label>
+          <input class="form-control" name="txtBrandName" type="text" placeholder="Enter brand name" required>
+          <br><br>
+      
+          <label for="Namr" class="form-label"></label>Category Name</label>
+          <input class="form-control" name="txtCategoryName" type="text" placeholder="Enter category name" required>
+          <br><br>
+      
+          <label for="Namr" class="form-label"></label>Product Name</label>
+          <input class="form-control" name="txtProductName" type="text" placeholder="Enter product name" required>
+          <br><br>
+      
+          <label for="Namr" class="form-label">Product Image</label>
+          <input type="file" id="ProductImage" name="ProductImage">
+          <br><br>
+
+          <label for="Namr" class="form-label">front Image</label>
+          <input type="file" id="frontProductImage" name="frontfileToUpload" required>
+          <br><br>
+
+          <label for="Namr" class="form-label">back Image</label>
+          <input type="file" id="backProductImage" name="backfileToUpload" required>
+          <br><br>
+
+          <label for="Namr" class="form-label">side Image</label>
+          <input type="file" id="sideProductImage" name="sidefileToUpload" required>
+          <br><br>
+           
+          <label for="Namr" class="form-label">Product Color</label>
+          <input type="text" id="ProductColor" name="txtProductColor" required>
+          <br><br>
+
+          <label for="Namr" class="form-label">Product Size</label>
+          <input type="text" id="ProductSize" name="txtProductSize" required>
+          <br><br>
+
+          <label for="Namr" class="form-label">Product Price</label>
+          <input class="form-control" name="txtProductPrice"  placeholder="enter product price "required>
+          <br><br>
+
+          <label for="Namr" class="form-label">MRP Price</label>
+          <input class="form-control" name="txtMrpPrice"  placeholder="enter mrp price "required>
+          <br><br>
+      
+          <label for="Namr" class="form-label">Selling Price</label>
+          <input class="form-control" name="txtSellingPrice"  placeholder="enter selling price" required>
+          <br><br>
+      
+          <label for="Namr" class="form-label">Product Description</label>
+          <input class="form-control" name="txtProductDescription" placeholder="enter description" required>
+          <br><br>
+          
+          <input type="checkbox" id="term" name="txtterm" value="term">
+          <label for="term">This is demo </label><br>
+          <div class="row">
+              <div class="col">
+                  <input class="form-control btn btn-secondary" name="Subbtn" type="submit" id="formFile" value="Save" size="20"> 
+              </div>
+          </div>
+      
+        </form>
+      </div>
+    </body>
+    </html>
+      
+
+
+
